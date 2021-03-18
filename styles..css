@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Roboto", sans-serif;
+  background: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-content {
+  width: 1250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-content .content-left {
+  width: 50%;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-content .content-left .box-top {
+  position: relative;
+  padding: 20px 60px 70px 60px;
+  background-color: #f1f1f1;
+  border-radius: 5px 5px 40px 40px;
+}
+
+.main-content .content-left .box-top .item-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-content .content-left .box-top .item-2 .last {
+  text-align: right;
+}
+
+.main-content .content-left .box-top .item-2 button {
+  margin-left: 18px;
+  padding: 8px 14px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #5e5a53;
+}
+
+.main-content .content-left .box-top .mar {
+  margin: 20px 0;
+}
+
+.main-content .content-left .box-top .box-tag {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #2b74e4;
+  width: 85%;
+  border-radius: 12px;
+  padding: 25px;
+  color: #fff;
+}
+
+.main-content .content-left .box-top .box-tag .last {
+  padding: 5px 0 5px 20px;
+  border-left: 2px solid #fff;
+}
+
+.main-content .content-left .box-top .h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.main-content .content-left .box-top .h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.main-content .content-left .box-bottom {
+  border-radius: 5px;
+  padding: 70px 60px 20px 60px;
+}
+
+.main-content .content-left .box-bottom .item-row {
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-content .content-left .box-bottom .item-row .image {
+  min-height: 50px;
+  min-width: 50px;
+  border-radius: 4px;
+  background-color: #c4c4c4;
+}
+
+.main-content .content-left .box-bottom .item-row .item-name {
+  font-size: 18px;
+  margin: 0 40px 0 30px;
+}
+
+.main-content .content-left .box-bottom .item-row .item-last {
+  text-align: right;
+  min-width: 80px;
+}
+
+.main-content .content-right {
+  width: 50%;
+  border-radius: 5px;
+  padding: 20px 50px;
+}
+
+.main-content .content-right .h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.main-content .content-right .h2:not(:first-child) {
+  margin-top: 30px;
+}
+
+.main-content .content-right .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-content .content-right .col label {
+  margin-left: 10px;
+}
+
+.main-content .content-right .option input {
+  margin-bottom: 18px;
+}
+
+.main-content .content-right .mar-left {
+  margin-left: 60px;
+}
+
+.main-content .content-right input[type="text"] {
+  background: none;
+  width: 100%;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: rgba(0, 0, 0, 0.08);
+  padding: 6px 0;
+  font-size: 18px;
+  margin: 5px 0 20px 0;
+}
+
+.main-content .content-right button {
+  width: 100%;
+  color: #2b74e4;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #f1f1f1;
+  border: 0;
+  outline: 0;
+  padding: 14px 0;
+  margin-top: 40px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 8px rgba(196, 196, 196, 0.2);
+          box-shadow: 0 0 8px rgba(196, 196, 196, 0.2);
+}
+/*# sourceMappingURL=styles..css.map */
